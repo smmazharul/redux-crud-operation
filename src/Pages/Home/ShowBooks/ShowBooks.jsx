@@ -14,11 +14,11 @@ const ShowBooks = () => {
            
             <thead>
               <tr>
-                <th></th>
-                <th>Book Name</th>
-                <th>Athor</th>
-                <th>Update</th>
-                <th>Action</th>
+                <th className='text-2xl font-bold'>SL.</th>
+                <th className='text-2xl font-bold'>Book Name</th>
+                <th className='text-2xl font-bold'>Athor</th>
+                <th className='text-2xl font-bold'>Update</th>
+                <th className='text-2xl font-bold'>Action</th>
               </tr>
             </thead>
             <tbody>
