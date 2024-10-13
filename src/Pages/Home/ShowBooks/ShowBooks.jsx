@@ -4,6 +4,8 @@ import ShowBook from './ShowBook';
 
 const ShowBooks = () => {
     const books = useSelector(state => state.booksReducer.books)
+
+    
     console.log(books)
     return (
       <div>
@@ -11,22 +13,23 @@ const ShowBooks = () => {
 
         <div className="overflow-x-auto">
           <table className="table table-zebra">
-           
             <thead>
               <tr>
-                <th className='text-2xl font-bold'>SL.</th>
-                <th className='text-2xl font-bold'>Book Name</th>
-                <th className='text-2xl font-bold'>Athor</th>
-                <th className='text-2xl font-bold'>Update</th>
-                <th className='text-2xl font-bold'>Action</th>
+                <th className="text-2xl font-bold">SL.</th>
+                <th className="text-2xl font-bold">Book Name</th>
+                <th className="text-2xl font-bold">Athor</th>
+                <th className="text-2xl font-bold">Update</th>
+                <th className="text-2xl font-bold">Action</th>
               </tr>
             </thead>
             <tbody>
-           
-             {
-              books.map(book=><ShowBook key={book.id} book={book}></ShowBook>)
-             }
-             
+              {books.map((book) => (
+                <ShowBook
+                  key={book.id}
+                  book={book}
+                  
+                ></ShowBook>
+              ))}
             </tbody>
           </table>
         </div>
