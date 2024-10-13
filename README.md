@@ -1,6 +1,6 @@
 # Redux CRUD operaton
 
--[live link:](https://genuine-duckanoo-43643d.netlify.app/showbooks) 
+-[live link:](https://react-redux-toolkits-crud-operations.netlify.app/showbooks) 
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
