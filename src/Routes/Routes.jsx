@@ -3,6 +3,7 @@ import Main from "../Layouts/Main";
 import Home from "../Pages/Home/Home/Home";
 import AddBook from "../Pages/AddBook/AddBook";
 import ShowBooks from "../Pages/Home/ShowBooks/ShowBooks";
+import UpdateBook from "../Pages/UpdateBook/UpdateBook";
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ export const router = createBrowserRouter([
       {
         path: "/showbooks",
         element: <ShowBooks></ShowBooks>,
+      },
+      {
+        path: "/updatebook/:id",
+        element: <UpdateBook></UpdateBook>,
       },
     ],
   },

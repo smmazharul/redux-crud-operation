@@ -23,12 +23,8 @@ const ShowBooks = () => {
               </tr>
             </thead>
             <tbody>
-              {books.map((book) => (
-                <ShowBook
-                  key={book.id}
-                  book={book}
-                  
-                ></ShowBook>
+              {books.map((book, idx) => (
+                <ShowBook key={book.id} book={book}></ShowBook>
               ))}
             </tbody>
           </table>
