@@ -8,7 +8,7 @@ const initialBooks = {
     { id: 1, title: "program is the best life", author: "Mazharul Islam" },
     { id: 2, title: "program is the  life", author: "Mazharul Islam" },
     { id: 3, title: "best life is programming", author: "Mazharul Islam" },
-    { id: 4, title: "you can do anything", author: "Mazharul Islam" },
+    { id: 4, title: "you can do anything", author: "Mazharul Islam" }
   ],
 };
 
